@@ -14,7 +14,7 @@ def start():
 	global sendnow
 	print "[+] Sending Tweets"
 	for name in sendnow:
-		befehl = "./lol.sh " + name
+		befehl = "./tweet.sh " + name
 		print name
 		p = subprocess.Popen(befehl, shell=True, bufsize=0, stdout=subprocess.PIPE)
 		p.wait()
