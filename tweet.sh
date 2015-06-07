@@ -5,7 +5,7 @@
 #REQUIRED PARAMS
 username="username"
 password="passw0rd"
-tweet="$*" #must be less than 140 chars
+tweet="@$1 http://hoefinghoff.berlin/wie-lange-noch-bis-volkstod/" #must be less than 140 chars
 
 #EXTRA OPTIONS
 uagent="Mozilla/5.0" #user agent (fake a browser)
