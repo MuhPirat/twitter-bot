@@ -14,7 +14,8 @@ This script can log into your Twitter account and post a new tweet, all without 
 1. apply executable permissions ```chmod +x ./tweet.sh```
 2. enter username and password to ```tweet.sh```
 3. change the tweet in ```tweet.sh``` (optional)
-2. usage: ```./t.py```
+4. change the twitterfeed/searchfeed in ```t.py```
+5. usage: ```./t.py```
 
 ## Forked from:
 * Author: Luka Pusic <luka@pusic.si>
