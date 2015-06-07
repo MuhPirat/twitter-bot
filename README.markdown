@@ -5,6 +5,9 @@ Too lazy to do that by hand?
 Too lazy to use the Twitter API?
 This script can log into your Twitter account and post a new tweet, all without the official API.
 
+## TODO
+...uhhmmm test? I have to admit, i didn't test the whole script, only the every single method.
+
 ## System requirements
 * Unix like OS (Linux, Mac OS X...)
 * curl
