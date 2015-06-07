@@ -1,18 +1,24 @@
-# CLI Twitter status update bot
+# Twitter Troll bot
 
-* Author: Luka Pusic <luka@pusic.si>
-* Github: https://github.com/lukapusic/twitter-bot
-
-## Description
+Ever wanted to send a tweet to every person who tweeted about "Volk" and "Deutsch" to troll them?
+Too lazy to do that by hand?
+Too lazy to use the Twitter API?
 This script can log into your Twitter account and post a new tweet, all without the official API.
 
 ## System requirements
 * Unix like OS (Linux, Mac OS X...)
 * curl
+* python2
 
 ## Instructions
 1. apply executable permissions ```chmod +x ./tweet.sh```
-2. usage: ```bash tweet.sh [tweet]```
+2. enter username and password to ```tweet.sh```
+3. change the tweet in ```tweet.sh``` (optional)
+2. usage: ```./t.py```
+
+## Forked from:
+* Author: Luka Pusic <luka@pusic.si>
+* Github: https://github.com/lukapusic/twitter-bot
 
 ## Changelog
 
