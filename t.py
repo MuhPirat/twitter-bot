@@ -1,3 +1,5 @@
+#! /usr/env/python
+
 import subprocess
 import feedparser
 import urllib
@@ -74,6 +76,10 @@ def puttofile():
 def loop():
 	while(1 == 1):
 		scrape()
-		time.sleep(300)
+                wait = 300  # seconds how long the bot will wait until the next cr4wl
+                print "[+] Waiting for " + str(wait/60) + " minutes."
+                print
+		time.sleep(wait)
 		
 loop()
+# start()
