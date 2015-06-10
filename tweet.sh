@@ -3,8 +3,8 @@
 #Author: Luka Pusic <luka@pusic.com>
 
 #REQUIRED PARAMS
-username="FreiKlaudia"
-password="Elder Scrolls 5"
+username = "username"
+password = "passw0rd"
 tweet="@$1 ich glaube eher das: http://hoefinghoff.berlin/wie-lange-noch-bis-volkstod/" #must be less than 140 chars
 
 #EXTRA OPTIONS
