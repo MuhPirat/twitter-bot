@@ -18,7 +18,7 @@ This script can log into your Twitter account and post a new tweet, all without 
 2. enter username and password to ```tweet.sh```
 3. change the tweet in ```tweet.sh``` (optional)
 4. change the twitterfeed/searchfeed in ```t.py``` (optional)
-5. usage: ```./t.py```
+5. usage: ```./t.py``` or ```python t.py```
 
 ## Forked from:
 * Author: Luka Pusic <luka@pusic.si>
@@ -32,8 +32,11 @@ This script can log into your Twitter account and post a new tweet, all without 
 ### 27.10.2012
 * The script is fixed now, fully supports SSL and logouts properly.
 
-### 2.12.2014
+### 02.12.2014
 * Adjusted the script to twitter changes. Removed --sslv3 curl parameter, changed the way we parse authenticity token. Tested on OSX.
+
+### 07.08.2015
+* Added trolling functions and fixed problems.
 
 ## Known issues
 * Sometimes when Twitter updates their website the script stops working, so don't rely on it 100%.
