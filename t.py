@@ -61,10 +61,13 @@ def puttofile():
 		stuff = stuff + database
 		send = database
 	else:
-		lol[-1] =  lol[-1] + "\n"
-		for user in database:
-			if user in lol:
-				send.append(user)
+		for element in range(len(database)):
+			database[element] = database[element] + "\n"
+		if lol[-1].find("\n") == -1:
+			lol[-1] =  lol[-1] + "\n"
+		sim = list(set(database) - set(lol))
+		for all in sim:
+			send.append(all)
 	send = map(str.strip, send)
 	sendnow = send
 	send = "\n".join(send)
